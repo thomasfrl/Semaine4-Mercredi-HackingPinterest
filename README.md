@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Application terminée
 
-Things you may want to cover:
+### Architecture de la base de donnée
 
-* Ruby version
+tab : Pin , User , Comment 
 
-* System dependencies
+-----------------------------------------
 
-* Configuration
+Pour tester la base
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`User.find(2).comments`
